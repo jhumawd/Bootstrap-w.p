@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: jost;
+      background-color: rgb(36, 35, 35);  
+
+    
+}
+
+.container{
+    background-color: rgba(44, 45, 44, 0.758);
+    border-radius: 60px;
+    border: 1px solid rgba(222, 222, 188, 0.18);
+    box-shadow: 0 5px 10px rgba(36, 36, 36, 0.495);
+}
+
+.nav-link{
+color: rgba(249, 249, 232, 0.806);
+}
+
+           /* card area */
+
+
+          
+
+.card-body{
+
+    background-color: rgb(8, 135, 4);
+    color: blue;
+    font-weight: 600;
+    border-radius:6px ;
+   cursor: pointer;
+   transition: 1s;
+} 
+
+.card-body:hover{
+    background-color: rgba(2, 75, 2, 0.733);
+   transform: translate(2px 5px);
+}
+
+
+.web_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+     width: 900px;
+    margin: 90px; 
+    cursor: pointer;
+}
+
+
+.card{
+
+     background-color: rgba(246, 250, 192, 0.573); 
+    margin: 2px;
+    box-shadow: 2px 5px 14px rgba(121, 121, 119, 0.715);
+}
+
+.card-img{
+    background-color: rgb(43, 38, 31);
+}
+
+
+.card-text{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    transition: 1s;
+}
+
+.card-text:hover{
+    color: rgb(234, 11, 3);
+}
+  
+
+/* heading area */
+
+#head_logo{
+    width: 200px;
+   margin-top: 10px;
+}
+
+
+.main_heading{
+    color: rgb(250, 234, 234);
+    font-size: 40px;
+    margin: 50px ;
+    transition:  1s;
+}
+
+.main_heading:hover{
+    color: chocolate;
+}
+
+.sub_heading{
+    color: rgb(186, 183, 183);
+font-size: 27px;
+margin: 50px;
+transition: 1s;
+
+}
+
+
+.sub_heading:hover{
+    color: rgb(254, 49, 90);
+}
+
+
+
+
+/* box card area */
+
+.container_two{
+    background-color: black;
+   margin: 50px 50px;
+}
+
+.titel-text{
+    color: aliceblue;
+    margin: 50px 50px;
+    padding-right: 60px;
+    
+}
+
+/* big div area */
+
+.container_three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+#work_img{
+    width: 600px;
+}
+
+#logo{
+    width: 200px;
+margin-top: 30px;
+
+}
+
